@@ -38,7 +38,9 @@
         "dss-web/dss-wordpress-theme": "*",
         "dss-web/dss-wp-events": "*",
         "advanced-custom-fields/advanced-custom-fields-pro": "5.*",
-        "wpackagist-plugin/user-switching": "*"
+        "wpackagist-plugin/user-switching": "*",
+        "wp-cli/wp-cli" : "*",
+        "psy/psysh" : "~0.6"
     },
     "extra": {
         "wordpress-install-dir": "wp",
@@ -47,5 +49,9 @@
             "content/plugins/{$name}/": ["type:wordpress-plugin"],
             "content/themes/{$name}/": ["type:wordpress-theme" ]
         }
+    },
+    "scripts": {
+        "post-install-cmd": "\"vendor/bin/wp\" plugin activate --all",
+        "post-update-cmd" : "\"vendor/bin/wp\" plugin activate --all"
     }
 }
