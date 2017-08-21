@@ -10,6 +10,11 @@
             "reference": "master"
         },
         {
+            "type": "git",
+            "url": "https://github.com/dss-web/dss-wp-events.git",
+            "reference": "master"
+        },
+        {
             "type": "package",
             "package": {
                 "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -31,6 +36,7 @@
         "composer/installers": "1.*",
         "johnpbloch/wordpress": "*",
         "dss-web/dss-wordpress-theme": "*",
+        "dss-web/dss-wp-events": "*",
         "advanced-custom-fields/advanced-custom-fields-pro": "5.*"
     },
     "extra": {
