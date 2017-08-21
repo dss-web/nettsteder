@@ -37,7 +37,8 @@
         "johnpbloch/wordpress": "*",
         "dss-web/dss-wordpress-theme": "*",
         "dss-web/dss-wp-events": "*",
-        "advanced-custom-fields/advanced-custom-fields-pro": "5.*"
+        "advanced-custom-fields/advanced-custom-fields-pro": "5.*",
+        "wpackagist-plugin/user-switching": "*"
     },
     "extra": {
         "wordpress-install-dir": "wp",
