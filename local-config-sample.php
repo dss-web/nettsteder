@@ -1,6 +1,10 @@
 <?php
-
-// This file should be one level up in the directory tree.
+/**
+ * WordPress credential configuration and setup for this installation.
+ * 
+ * This file should be renamed local-config.php and moved  one level up in the directory tree,
+ * AFTER you have gone over all credentials.
+ */
 define( 'DB_NAME', 'database_name_here' );
 define( 'DB_USER', 'username_here' );
 define( 'DB_PASSWORD', 'password_here' );
