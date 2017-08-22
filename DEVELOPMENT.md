@@ -70,6 +70,7 @@ Clone the repo and install WordPress:
 
 ```
 git clone git@github.com:dss-web/nettsteder.git .
+export ACF_PRO_KEY="YOU MUST SET THIS"
 composer install
 wp core install --prompt
 ```
