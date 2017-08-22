@@ -70,5 +70,6 @@ Clone the repo and install WordPress:
 
 ```
 git clone git@github.com:dss-web/nettsteder.git .
+composer install
 wp core install --prompt
 ```
