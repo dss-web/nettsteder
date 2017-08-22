@@ -74,3 +74,6 @@ export ACF_PRO_KEY="YOU MUST SET THIS"
 composer install
 wp core multisite-install --prompt
 ```
+
+TODO: composer should install wp in the above command, using wp core is-installed as check.
+
