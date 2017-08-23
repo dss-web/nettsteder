@@ -85,6 +85,13 @@ This may be a useful reference: [Codeception for WordPress](http://codeception.c
 1. Go to the `testing` directory.
 1. Run `composer install`
 
+## Run tests
 
+`vendor/bin/codecept run acceptance`
 
+## Create new test
+
+Example:
+
+`vendor/bin/codecept g:cest acceptance 001-login-`
 
