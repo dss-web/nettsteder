@@ -77,3 +77,14 @@ wp core multisite-install --prompt
 
 TODO: composer should install wp in the above command, using wp core is-installed as check.
 
+
+## Setup test environment (Codeception)
+
+This may be a useful reference: [Codeception for WordPress](http://codeception.com/for/wordpress)
+
+1. Go to the `testing` directory.
+1. Run `composer install`
+
+
+
+
