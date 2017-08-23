@@ -84,6 +84,7 @@ This may be a useful reference: [Codeception for WordPress](http://codeception.c
 
 1. Go to the `testing` directory.
 1. Run `composer install`
+1. Edit `testing/tests/acceptance.suite.yml` to suit your environment.
 
 ## Run tests
 
