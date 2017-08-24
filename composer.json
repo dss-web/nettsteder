@@ -47,9 +47,5 @@
             "content/plugins/{$name}/": ["type:wordpress-plugin"],
             "content/themes/{$name}/": ["type:wordpress-theme" ]
         }
-    },
-    "scripts": {
-        "post-install-cmd": "wp core multisite-install --prompt && wp plugin activate --all && wp theme activate dss-wordpress-theme",
-        "post-update-cmd" : "wp plugin activate --all"
     }
 }
