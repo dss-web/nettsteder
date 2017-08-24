@@ -1,3 +1,7 @@
+## TeamCity
+
+Builds and tests are managed through TeamCity.
+
 ## Buildbox setup
 
 You need a VM with CentOS installed. You may use Vagrant and VirtualBox: `vagrant init centos/7`
