@@ -1,6 +1,6 @@
 ## TeamCity
 
-Builds and tests are managed through TeamCity.
+Builds and tests are managed through TeamCity. Deployments too.
 
 ## Buildbox setup
 
