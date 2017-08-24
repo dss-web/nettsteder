@@ -8,6 +8,7 @@ actor_suffix: Tester
 extensions:
     enabled:
         - Codeception\Extension\RunFailed
+        - Codeception\Extension\TeamCity
     commands:
         - Codeception\Command\GenerateWPUnit
         - Codeception\Command\GenerateWPRestApi
