@@ -6,12 +6,12 @@
         },
         {
             "type": "git",
-            "url": "git@github.com/dss-web/dss-wordpress-theme.git",
+            "url": "git@github.com:dss-web/dss-wordpress-theme.git",
             "reference": "master"
         },
         {
             "type": "git",
-            "url": "git@github.com/dss-web/dss-wp-events.git",
+            "url": "git@github.com:dss-web/dss-wp-events.git",
             "reference": "master"
         },
         {
