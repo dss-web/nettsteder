@@ -6,7 +6,7 @@ $table_prefix = 'wp_';
 
 // Custom Content Directory
 define( 'WP_CONTENT_DIR', dirname( __FILE__ ) . '/content' );
-define( 'WP_CONTENT_URL', 'https://' . $_SERVER['HTTP_HOST'] . '/content' );
+define( 'WP_CONTENT_URL', 'https://' . DOMAIN_CURRENT_SITE . '/content' );
 
 // Custom uploads directory
 define( 'UPLOADS', 'media' );
@@ -32,4 +32,3 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 require_once ABSPATH . 'wp-settings.php';
-
