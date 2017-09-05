@@ -33,7 +33,7 @@
         {
             "type": "package",
             "package": {
-                "name": "mercator",
+                "name": "humanmade/mercator",
                 "version": "1.0.1",
                 "type": "wordpress-muplugin",
                 "dist": {
@@ -48,7 +48,7 @@
         {
             "type": "package",
             "package": {
-                "name": "mercator-sso",
+                "name": "humanmade/mercator-sso",
                 "version": "1.0.1",
                 "type": "wordpress-muplugin",
                 "dist": {
@@ -66,8 +66,8 @@
         "composer/installers": "1.*",
         "dss-web/dss-wordpress-theme": "*",
         "dss-web/dss-wp-events": "*",
-		"mercator": "*",
-		"mercator-sso": "*",
+		"humanmade/mercator": "*",
+		"humanmade/mercator-sso": "*",
         "advanced-custom-fields/advanced-custom-fields-pro": "5.*",
         "wpackagist-plugin/user-switching": "*",
 		"wpackagist-plugin/advanced-custom-fields": "*",
