@@ -1,7 +1,10 @@
-# Nettsteder 2.0
+# Nettsteder 2.0 Skeleton
 
 This is not live yet -- under development.
 
+[Nettsteder](http://nettsteder.regjeringen.no) ("net sites" in Norwegian) is the Norwegian Government WordPress Multisite where we're host sites for the Norwegian Government Ministries and Norwegian Government Agencies.
+
+We've created a [VVV site template](https://github.com/dss-web/nettsteder-vvv) you can use when you do development for Nettsteder.
 
 ## Installation
 
